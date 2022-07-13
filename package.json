@@ -1,0 +1,22 @@
+{
+  "name": "slack-speedtest-bot",
+  "version": "1.0.0",
+  "description": "An slack bot that checks the speed of a page using the page url",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --require dotenv/config src/app.js",
+    "start": "node --require dotenv/config src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.11.3",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19"
+  }
+}
